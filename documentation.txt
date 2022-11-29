@@ -1,0 +1,39 @@
+<div>
+            <div className="navbar">
+                <div className="menu-line"></div>
+                <aside className="menu">
+                    <a>Welcome</a>
+                    <a href="#about">About</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact">Contact</a>
+                </aside>
+            </div>
+        </div>
+
+<div className="middle">
+                                <div className="btn">Hover</div>
+                            </div>
+
+<Fullpage>
+        <FullPageSections>
+          <FullpageSection>
+            <Home></Home>
+          </FullpageSection>
+          <FullpageSection>
+            <About></About>
+          </FullpageSection>
+          <FullpageSection>
+            <Work></Work>
+          </FullpageSection>
+          <FullpageSection>
+          <Contact></Contact>
+          </FullpageSection>
+        </FullPageSections>
+      <Navbar></Navbar>
+      </Fullpage>
+
+<Home></Home>
+      <About></About>
+      <Work></Work>
+      <Contact></Contact>
+      <Navbar></Navbar>
