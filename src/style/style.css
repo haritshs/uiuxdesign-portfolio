@@ -224,6 +224,16 @@ section .background-text .line:nth-of-type(2) {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.1em;
+    color: #322F2F;
+}
+
+.about h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
     color: #575656;
 }
 
@@ -237,7 +247,7 @@ section .background-text .line:nth-of-type(2) {
 }
 
 .work {
-    height: 100vh;
+    height: auto;
     display: flex;
 }
 
@@ -280,7 +290,7 @@ section .background-text .line:nth-of-type(2) {
 }
 
 .work .btn-more:hover {
-    background: transparent;
+    background: #ffffff;
     border: 1px solid #322F2F;
     color: #322F2F;
 }
@@ -291,6 +301,30 @@ section .background-text .line:nth-of-type(2) {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
+}
+
+.fullwork .btn-more {
+    width: 200px;
+    height: 50px;
+    background: #322F2F;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.fullwork .btn-more:hover {
+    background: #ffffff;
+    border: 1px solid #322F2F;
+    color: #322F2F;
+}
+
+.fullwork .btn-more:active {
+    background: none;
+    color: none;
 }
 
 .fullwork .card {

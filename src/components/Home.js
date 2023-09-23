@@ -46,7 +46,7 @@ const Home = () => {
                                         <h1>HARITS HARU SUSENO</h1>
                                     </div>
                                     <div data-aos="fade-down">
-                                        <h3>UI/UX DESIGNER & FRONTEND DEVELOPER</h3>
+                                        <h3>UI/UX DESIGNER</h3>
                                     </div>
                                     <div className="d-flex flex-row text-center mt-4">
                                         <div data-aos="zoom-in" className="rounded-logo me-3">
@@ -88,8 +88,7 @@ const Home = () => {
                                             <h2 className="mb-3">HI, MY NAME IS HARITS</h2>
                                         </div>
                                         <div data-aos="fade-down">
-                                            <p >Hi, my name is Harits Haru Suseno, a recent graduate with a bachelor's degree in Informatics Engineering and currently seeking a position as a UI/UX Designer or Software Engineer. Has experience in several web and mobile application design and development projects. Creative person, can work in team, like to learn something new.</p>
-                                            <p className="mb-5">Currently I'm working as a UI/UX Designer at PT. Lautan Natural Krimerindo since February 2023. I'm responsible for wireframes, visual design and interactive prototyping.</p>
+                                            <p >Hi, my name is Harits Haru Suseno, "I am a recent graduate with a bachelor's degree in Computer Engineering, who has a deep passion for User Interface (UI) and User Experience (UX) design. I have been involved in several web and mobile application design and development projects. I am a creative individual who believes that good design can transform user experiences into something extraordinary. I am highly enthusiastic about learning and growing in the role of a UI/UX Designer, and I am ready to contribute to creating captivating and functional design solutions." Currently I'm working as a UI/UX Designer at PT. Lautan Natural Krimerindo since February 2023. I'm responsible for wireframes, visual design and interactive prototyping.</p>
                                         </div>
                                         <div data-aos="fade-down">
                                             <h2 className="mb-3">MY COMPETENCIES & SKILLS</h2>
@@ -98,20 +97,24 @@ const Home = () => {
                                             <h3 className="mb-2">UI/UX DESIGNER</h3>
                                         </div>
                                         <div data-aos="fade-down">
-                                            <p>User Flows, Usability Test, wireframes, interactive prototypes, User Interface design, and design system.</p>
+                                            <p><span><h4>Design System</h4></span>Develop and maintain design guidelines and standards to ensure design consistency across products.</p>
+                                            <p><span><h4>User Research</h4></span>Conduct user research to understand user behavior, needs, and preferences. Use this research to inform design decisions.</p>
+                                            <p><span><h4>Wireframing and Prototyping</h4></span>Create wireframes, mockups, and interactive prototypes to visualize design concepts and user flows.</p>
+                                            <p><span><h4>UI Design</h4></span>Design visually appealing and user-friendly interfaces for web and mobile applications. Ensure consistency in design elements such as typography, colors, and icons.</p>
+                                            <p><span><h4>Usability Testing</h4></span>Conduct usability testing to gather feedback and iterate on designs to improve user experience.</p>
                                         </div>
-                                        <div data-aos="fade-down">
+                                        {/* <div data-aos="fade-down">
                                             <h3 className="mb-2">FRONTEND WEB DEVELOPER</h3>
                                         </div>
                                         <div data-aos="fade-down">
-                                            <p>Implemented websites, or landing pages from concept through deployment. Build user-friendly, responsive apps for the browser. write code (HTML, JavaScript, CSS, Bootstrap, React.js.).</p>
+                                            <p>Implemented websites, or landing pages from concept through deployment. Build user-friendly, responsive apps for the browser. write code (HTML, JavaScript, CSS, Bootstrap).</p>
                                         </div>
                                         <div data-aos="fade-down">
                                             <h3 className="mb-2">FLUTTER DEVELOPER</h3>
                                         </div>
                                         <div data-aos="fade-down">
-                                            <p>Translate and Build the designs and Wireframes into high quality UI code, Dart programming language, Firebase, State Management Bloc.</p>
-                                        </div>
+                                            <p>into high quality UI code, Dart programming language, Firebase, State Management Bloc.</p>
+                                        </div> */}
                                         
                                     </Col>
                                 </Row>
@@ -195,6 +198,7 @@ const Home = () => {
                             <div className="text-center mt-5">
                                 <Button className="btn-more" onClick={() => {setGoToFullWorks(true); }}>View More</Button>
                             </div>
+                            
                             
                         </Container>
                     </div>
